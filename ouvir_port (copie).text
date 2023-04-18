@@ -1,0 +1,10 @@
+ip addr show
+telnet IP_ADDRESS 7497
+
+
+
+
+
+sudo iptables -L
+sudo iptables -A INPUT -p tcp --dport 7497 -j ACCEPT
+
